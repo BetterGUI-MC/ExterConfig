@@ -18,7 +18,7 @@
   <description>Support for more config types</description>
 
   <properties>
-    <plugin.version>8.4</plugin.version>
+    <plugin.version>8.6</plugin.version>
     <project.mainClass>me.hsgamer.bettergui.extraconfig.ExtraConfig</project.mainClass>
   </properties>
 
@@ -67,10 +67,11 @@
   </build>
 
   <dependencies>
+    <!--suppress VulnerableLibrariesLocal -->
     <dependency>
       <groupId>me.hsgamer</groupId>
       <artifactId>hscore-config-simplixstorage</artifactId>
-      <version>4.2.10</version>
+      <version>4.2.15</version>
     </dependency>
   </dependencies>
 </project>

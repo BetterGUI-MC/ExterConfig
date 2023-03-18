@@ -15,6 +15,6 @@ public final class ExtraConfig extends PluginAddon {
     public void onEnable() {
         ConfigBuilder.INSTANCE.register(tomlProvider::loadConfiguration, "toml");
         ConfigBuilder.INSTANCE.register(jsonProvider::loadConfiguration, "json");
-        ConfigBuilder.INSTANCE.register(yamlProvider::loadConfiguration, "yaml", "yml");
+        ConfigBuilder.INSTANCE.register(yamlProvider::loadConfiguration, "yaml", "yml"); 
     }
 }
